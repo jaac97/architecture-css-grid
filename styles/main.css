@@ -243,7 +243,7 @@ img {
     background-position: bottom center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 950px) {
     .us {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -262,5 +262,73 @@ img {
 @media (min-width: 950px) {
     .us-content {
         grid-column: 2/4;
+    }
+}
+
+
+/* Models */
+
+.model {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+    .model {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.basic {
+    background-image: url('../img/modelo_basico.jpg');
+}
+
+@media (min-width: 768px) {
+    .basic .model-content {
+        grid-row: 2/3;
+    }
+    .basic {
+        background-position: top right;
+    }
+}
+
+.premier {
+    background-image: url('../img/modelo_premier.jpg');
+}
+
+@media (min-width: 768px) {
+    .premier .model-content {
+        grid-column: 2/3;
+    }
+    .premier {
+        background-position: center left;
+    }
+}
+
+.elite {
+    background-image: url('../img/modelo_elite.jpg');
+}
+
+@media (min-width: 768px) {
+    .elite {
+        background-position: top right;
+    }
+}
+
+.model-content {
+    padding: 5rem;
+    background-color: var(--white);
+}
+
+@media (min-width: 768px) {
+    .basic .model-content,
+    .elite .model-content {
+        padding: 2rem 2rem 2rem 0;
+    }
+    .premier .model-content {
+        padding: 2rem 0rem 2rem 2rem;
     }
 }
