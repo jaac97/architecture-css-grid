@@ -1,2 +1,83 @@
-font-family: 'Raleway',
-sans-serif;
+:root {
+    --font: 'Raleway', sans-serif;
+    --white: #fff;
+    --black: #111111;
+    --gray: #343a40;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--font);
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    margin: 1rem 0 4rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+    user-select: none;
+}
+
+h2 {
+    font-size: 5.8rem;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    color: var(--gray);
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    padding: .5rem 2rem;
+    transition: background-color .3s;
+}
+
+.btn:hover {
+    color: var(--white);
+    background-color: var(--gray);
+}
+
+
+/* Utilities */
+
+.text-center {
+    text-align: center;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
