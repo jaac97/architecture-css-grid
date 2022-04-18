@@ -15,9 +15,9 @@ This is a webpage part of the course of CSS La Guía Completa - Flexbox, CSS Gri
 - [Author](#author)
 
 ## Author
-<a href="https://www.linkedin.com/in/josue-alarcon-camino/" target="_blank">-LinkedIn Josué Alarcón</a>
-<a href="https://github.com/jaac97" target="_blank">-Github @jaac97</a>
-<a href="https://www.frontendmentor.io/profile/jaac97" target="_blank">-Frontend Mentor  @jaac97</a>
+- LinkedIn - [Josué Alarcón](https://www.linkedin.com/in/josue-alarcon-camino/)
+- Github - [@jaac97](https://github.com/jaac97)
+- Frontend Mentor - [@jaac97](https://www.frontendmentor.io/profile/jaac97)
 
 ## Overview
 
